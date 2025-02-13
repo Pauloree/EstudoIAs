@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #5b40bd;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da janela inteira */
+    flex-direction: column; /* Alinha os itens na vertical */
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+.deepseek img{
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ad99f5;
+    box-shadow: 7px 3px  30px black;
+    margin-bottom: 10px;
+}
+
+.deepseek {
+    text-align: center;
+    font-weight: bold;
+}
+
+.chatgpt img{
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ad99f5;
+    box-shadow: 7px 3px  30px black;
+    margin-bottom: 10px;
+}
+
+.chatgpt {
+    text-align: center;
+    font-weight: bold;
+}
+
+.copilot img{
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ad99f5;
+    box-shadow: 7px 3px  30px black;
+    margin-bottom: 10px;
+}
+
+.copilot {
+    text-align: center;
+    font-weight: bold;
+}
