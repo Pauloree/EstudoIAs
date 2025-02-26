@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1b1c30;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .login-container {
+            text-align: center;
+            background-color: #2a2b3d;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            background-color: #77c97c; /* Cor de exemplo para a logo */
+            border-radius: 50%; /* Deixa a logo redonda */
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #292a38;
+            color: white;
+        }
+
+        .login-container input::placeholder {
+            color: #aaa;
+        }
+
+        .login-container a {
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 25px;
+            background-color: #77c97c;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #66b16b;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="login-container">
+        <!-- Logo (substitua por uma imagem real se necessário) -->
+        <a href="/index.html" id="back"><h1>Voltar</h1></a>
+        <div class="logo"></div>
+        <h1>LOGIN</h1>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Senha">
+        <p>Ainda não tem uma conta? <a href="#">Crie uma</a></p>
+        <button>Entrar</button>
+    </div>
+</body>
+</html>
